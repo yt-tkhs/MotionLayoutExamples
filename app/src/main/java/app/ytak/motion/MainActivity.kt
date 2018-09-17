@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.DividerItemDecoration
 import app.ytak.motion.examples.CoordinatorActivity
+import app.ytak.motion.examples.CustomAttributeActivity
 import com.xwray.groupie.GroupAdapter
 import com.xwray.groupie.ViewHolder
 import kotlinx.android.synthetic.main.activity_main.*
@@ -21,6 +22,9 @@ class MainActivity : AppCompatActivity() {
         adapter.update(listOf(
                 ExampleItem(R.string.constraint_title, R.string.constraint_description) {
                     startActivity(CoordinatorActivity.newInstance(this, true))
+                },
+                ExampleItem(R.string.customattr_title) {
+                    startActivity(CustomAttributeActivity.newInstance(this, true))
                 }
         ))
     }

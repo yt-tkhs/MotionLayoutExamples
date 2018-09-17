@@ -3,4 +3,6 @@
 
     <string name="constraint_title">CoordinatorLayout</string>
     <string name="constraint_description">CoordinatorLayoutのようにToolbarを縮小させる</string>
+
+    <string name="customattr_title">CustomAttribute</string>
 </resources>

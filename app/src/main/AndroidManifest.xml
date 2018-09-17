@@ -20,6 +20,10 @@
         <activity
             android:name=".examples.CoordinatorActivity"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".examples.CustomAttributeActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
