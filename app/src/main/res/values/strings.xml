@@ -5,4 +5,6 @@
     <string name="constraint_description">CoordinatorLayoutのようにToolbarを縮小させる</string>
 
     <string name="customattr_title">CustomAttribute</string>
+    
+    <string name="cube_title">Simple Cube</string>
 </resources>
